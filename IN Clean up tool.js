@@ -31,7 +31,7 @@
         document.evaluate("//*[@id='dlg-execute-flow']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
 
         // Wait for a bit (adjust as needed)
-        await new Promise(resolve => setTimeout(resolve, 6000));
+        await new Promise(resolve => setTimeout(resolve, 9000));
 
         // Clear input field for the next number
         inputField.value = "";
